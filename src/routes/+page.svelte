@@ -1,10 +1,6 @@
-<!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
 <script>
 	import { onMount } from 'svelte';
 	import vg from '$lib/vg';
-
-	/** @type {import('./$types').PageData} */
-	export let data;
 
 	onMount(() => {
 		document.querySelector('#output')?.appendChild(vg);
